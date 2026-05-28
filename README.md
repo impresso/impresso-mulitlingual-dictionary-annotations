@@ -12,6 +12,13 @@ Purpose: create better seed word pairs for aligning monolingual static word embe
 
 ## Run
 
+First time only, clone the repository:
+
+```bash
+git clone git@github.com:impresso/impresso-mulitlingual-dictionary-annotations.git
+cd impresso-mulitlingual-dictionary-annotations
+```
+
 Before starting, always pull the latest annotations:
 
 ```bash
