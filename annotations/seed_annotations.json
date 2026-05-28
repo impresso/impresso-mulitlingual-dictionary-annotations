@@ -1,0 +1,307 @@
+{
+  "candidate_file": "pivot_seed_candidates_1to1_clustered_500x4.jsonl",
+  "created_at": "2026-05-28T14:18:15",
+  "updated_at": "2026-05-28T14:30:52",
+  "annotations": [
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "leichtathletischen",
+      "target_word": "athletic",
+      "human_is_valid": false,
+      "sample_id": 1750,
+      "annotated_at": "2026-05-28T14:20:29"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "Janeiro",
+      "target_word": "janeiro",
+      "human_is_valid": true,
+      "sample_id": 1272,
+      "annotated_at": "2026-05-28T14:20:45"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "unglücklich",
+      "target_word": "unfortunate",
+      "human_is_valid": true,
+      "sample_id": 259,
+      "annotated_at": "2026-05-28T14:21:06"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "Amerikanern",
+      "target_word": "yankees",
+      "human_is_valid": true,
+      "sample_id": 810,
+      "annotated_at": "2026-05-28T14:21:33"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "formidable",
+      "target_word": "formidabl",
+      "human_is_valid": true,
+      "sample_id": 532,
+      "annotated_at": "2026-05-28T14:21:44"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "Hirten",
+      "target_word": "shepherd",
+      "human_is_valid": true,
+      "sample_id": 889,
+      "annotated_at": "2026-05-28T14:21:57"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "Geiseln",
+      "target_word": "hostage",
+      "human_is_valid": true,
+      "sample_id": 1862,
+      "annotated_at": "2026-05-28T14:22:03"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "Trikotagen",
+      "target_word": "hosiery_glov",
+      "human_is_valid": false,
+      "sample_id": 1790,
+      "annotated_at": "2026-05-28T14:23:00"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "mystischen",
+      "target_word": "mystical",
+      "human_is_valid": true,
+      "sample_id": 163,
+      "annotated_at": "2026-05-28T14:23:05"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "Harmonium",
+      "target_word": "harmonium",
+      "human_is_valid": true,
+      "sample_id": 1936,
+      "annotated_at": "2026-05-28T14:24:02"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Bobsleigh",
+      "target_word": "Bobsleigh",
+      "human_is_valid": false,
+      "sample_id": 1424,
+      "annotated_at": "2026-05-28T14:24:30"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Sabbat",
+      "target_word": "sabbat",
+      "human_is_valid": true,
+      "sample_id": 661,
+      "annotated_at": "2026-05-28T14:24:33"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Posieux",
+      "target_word": "Posieux",
+      "human_is_valid": false,
+      "sample_id": 1041,
+      "annotated_at": "2026-05-28T14:24:58"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Romania",
+      "target_word": "Romania",
+      "human_is_valid": true,
+      "sample_id": 558,
+      "annotated_at": "2026-05-28T14:25:00"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Nachhut",
+      "target_word": "arrièregarde",
+      "human_is_valid": true,
+      "sample_id": 548,
+      "annotated_at": "2026-05-28T14:25:38"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Rembrandt",
+      "target_word": "Rembrandt",
+      "human_is_valid": true,
+      "sample_id": 1189,
+      "annotated_at": "2026-05-28T14:25:40"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "imponierende",
+      "target_word": "impressionnant",
+      "human_is_valid": true,
+      "sample_id": 1920,
+      "annotated_at": "2026-05-28T14:26:01"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Mercerie",
+      "target_word": "merceri_bonneteri",
+      "human_is_valid": false,
+      "sample_id": 1255,
+      "annotated_at": "2026-05-28T14:27:03"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Epidemie",
+      "target_word": "épidémie",
+      "human_is_valid": true,
+      "sample_id": 1116,
+      "annotated_at": "2026-05-28T14:27:06"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "Hochburg",
+      "target_word": "fief",
+      "human_is_valid": false,
+      "sample_id": 1294,
+      "annotated_at": "2026-05-28T14:30:16"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "Holland",
+      "target_word": "holland",
+      "human_is_valid": true,
+      "sample_id": 973,
+      "annotated_at": "2026-05-28T14:30:18"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "Raymond",
+      "target_word": "raymond",
+      "human_is_valid": true,
+      "sample_id": 97,
+      "annotated_at": "2026-05-28T14:30:20"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "Alcatel",
+      "target_word": "alcatel",
+      "human_is_valid": true,
+      "sample_id": 1486,
+      "annotated_at": "2026-05-28T14:30:27"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "pital",
+      "target_word": "pital",
+      "human_is_valid": true,
+      "sample_id": 1156,
+      "annotated_at": "2026-05-28T14:30:31"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "Musikalität",
+      "target_word": "musicalit",
+      "human_is_valid": true,
+      "sample_id": 1737,
+      "annotated_at": "2026-05-28T14:30:37"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "genehmigt",
+      "target_word": "approuv",
+      "human_is_valid": true,
+      "sample_id": 1115,
+      "annotated_at": "2026-05-28T14:30:41"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "Clearing",
+      "target_word": "clearing",
+      "human_is_valid": true,
+      "sample_id": 509,
+      "annotated_at": "2026-05-28T14:30:43"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "vorbereitet",
+      "target_word": "prepar",
+      "human_is_valid": true,
+      "sample_id": 1017,
+      "annotated_at": "2026-05-28T14:30:45"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "bezichtigt",
+      "target_word": "accus",
+      "human_is_valid": true,
+      "sample_id": 443,
+      "annotated_at": "2026-05-28T14:30:48"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "Festlichkeiten",
+      "target_word": "festivit",
+      "human_is_valid": true,
+      "sample_id": 1413,
+      "annotated_at": "2026-05-28T14:30:52"
+    }
+  ]
+}
