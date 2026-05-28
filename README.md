@@ -49,6 +49,7 @@ Annotation rules:
 - Ignore OCR/spelling errors in either word if the intended word is clear.
 - Ignore singular/plural differences if the meaning is otherwise correct.
 - If a word is in the wrong language, mark it as false.
+- If the source word has several common meanings, mark it as false immediately, even if the shown translation is correct for one of those meanings.
 - If you know both words and the translation is only sort of correct, but not really correct, mark it as false.
 
 ## After Annotating
