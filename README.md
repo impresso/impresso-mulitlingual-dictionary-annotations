@@ -37,8 +37,19 @@ During annotation:
 
 - `t` = correct translation
 - `f` = wrong translation
+- `s` = skip if you do not know the word or are very unsure; it does not count, and another random pair is shown
 - `b` = go back
 - `q` = quit and save
+
+Skipped pairs are not saved as annotations, so the number you enter means the number of `t`/`f` decisions you will contribute.
+
+Annotation rules:
+
+- Ignore capitalization.
+- Ignore OCR/spelling errors in either word if the intended word is clear.
+- Ignore singular/plural differences if the meaning is otherwise correct.
+- If a word is in the wrong language, mark it as false.
+- If you know both words and the translation is only sort of correct, but not really correct, mark it as false.
 
 ## After Annotating
 

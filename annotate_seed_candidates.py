@@ -28,7 +28,7 @@ python annotate_seed_candidates.py
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Annotate seed candidates with single-key t/f decisions."
+        description="Annotate seed candidates with single-key t/f/s controls."
     )
     parser.add_argument(
         "--candidates",
@@ -210,7 +210,7 @@ def sample_unannotated(
     done: set[str],
     requested_new_by_pair: dict[str, int],
     seed: int,
-) -> list[dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
     by_pair: dict[str, list[dict[str, Any]]] = {}
     for row in candidates:
         if candidate_key(row) in done:
@@ -218,16 +218,19 @@ def sample_unannotated(
         by_pair.setdefault(str(row["pair"]), []).append(row)
 
     selected: list[dict[str, Any]] = []
+    reserves_by_pair: dict[str, list[dict[str, Any]]] = {}
     for pair, rows in sorted(by_pair.items()):
         needed = requested_new_by_pair.get(pair, 0)
         if needed == 0:
+            reserves_by_pair[pair] = []
             continue
         rng = random.Random(f"{seed}:{pair}:{len(done)}")
         rows = list(rows)
         rng.shuffle(rows)
         selected.extend(rows[:needed])
+        reserves_by_pair[pair] = rows[needed:]
 
-    return selected
+    return selected, reserves_by_pair
 
 
 def write_annotations(path: Path, data: dict[str, Any]) -> None:
@@ -266,7 +269,13 @@ def clear_screen() -> None:
     print("\033[2J\033[H", end="")
 
 
-def print_table(row: dict[str, Any], index: int, total: int, output_path: Path) -> None:
+def print_table(
+    row: dict[str, Any],
+    index: int,
+    total: int,
+    output_path: Path,
+    message: str = "",
+) -> None:
     pair = str(row["pair"])
     left_label = f"{row['source_lang']} word"
     right_label = f"{row['target_lang']} word"
@@ -287,7 +296,10 @@ def print_table(row: dict[str, Any], index: int, total: int, output_path: Path) 
     print(f"| {left:<{width_left}} | {right:<{width_right}} |")
     print(border)
     print()
-    print("Press:  t = true    f = false    b = back    q = quit")
+    print("Press:  t = true    f = false    s = skip    b = back    q = quit")
+    if message:
+        print()
+        print(message)
 
 
 def print_instructions() -> None:
@@ -299,11 +311,18 @@ def print_instructions() -> None:
     print("Keys:")
     print("  t  mark as true/correct")
     print("  f  mark as false/incorrect")
+    print("  s  skip if you do not know the word or are very unsure")
     print("  b  go back to the previous pair and change your answer")
     print("  q  quit; progress is saved")
     print()
-    print("Please focus on meaning, not OCR quality. If the translation is the right")
-    print("word but contains OCR noise or spelling damage, still mark it as true.")
+    print("Please judge the meaning, not surface details:")
+    print("  - ignore capitalization")
+    print("  - ignore OCR/spelling errors in either word if the intended word is clear")
+    print("  - ignore singular/plural differences if the meaning is otherwise correct")
+    print("  - mark false if a word is in the wrong language")
+    print()
+    print("If you know both words and the translation is only sort of correct,")
+    print("but not really correct, mark it as false.")
     print()
     print("Press any key to start.")
     get_single_key()
@@ -355,7 +374,9 @@ def main() -> int:
     )
 
     requested_new_by_pair = ask_new_counts(active_pairs, existing_counts, unannotated_counts)
-    selected = sample_unannotated(candidates, done, requested_new_by_pair, args.seed)
+    selected, reserves_by_pair = sample_unannotated(
+        candidates, done, requested_new_by_pair, args.seed
+    )
 
     if not selected:
         print("No new annotations requested.")
@@ -369,14 +390,30 @@ def main() -> int:
 
     total = len(selected)
     idx = 0
+    skipped_count = 0
+    message = ""
     while idx < total:
         candidate = selected[idx]
         while True:
-            print_table(candidate, idx + 1, total, output_path)
+            print_table(candidate, idx + 1, total, output_path, message)
+            message = ""
             key = get_single_key()
             if key == "q":
                 print("\nStopped. Progress saved.")
                 return 0
+            if key == "s":
+                pair = str(candidate["pair"])
+                replacements = reserves_by_pair.get(pair, [])
+                if not replacements:
+                    message = (
+                        f"No replacement candidates left for {pair}. "
+                        "Please mark this pair, go back, or quit."
+                    )
+                    break
+                selected[idx] = replacements.pop(0)
+                skipped_count += 1
+                message = "Skipped. Showing a replacement candidate."
+                break
             if key == "b":
                 if idx == 0:
                     continue
@@ -397,6 +434,8 @@ def main() -> int:
     clear_screen()
     print(f"Done. Wrote {len(annotation_data['annotations'])} total annotations to:")
     print(output_path)
+    if skipped_count:
+        print(f"Skipped {skipped_count} candidates during this run.")
     return 0
 
 
