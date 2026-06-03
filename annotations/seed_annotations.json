@@ -1,0 +1,307 @@
+{
+  "candidate_file": "pivot_seed_candidates_1to1_clustered_500x4.jsonl",
+  "created_at": "2026-06-03T16:05:53",
+  "updated_at": "2026-06-03T16:12:01",
+  "annotations": [
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "dynastisch",
+      "target_word": "dynastic",
+      "human_is_valid": true,
+      "sample_id": 1750,
+      "annotated_at": "2026-06-03T16:08:02"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "karawa",
+      "target_word": "caravan",
+      "human_is_valid": true,
+      "sample_id": 1272,
+      "annotated_at": "2026-06-03T16:08:55"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "einfuhrend",
+      "target_word": "introductory",
+      "human_is_valid": true,
+      "sample_id": 259,
+      "annotated_at": "2026-06-03T16:09:07"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "zivilstandsbeamt",
+      "target_word": "registrar",
+      "human_is_valid": true,
+      "sample_id": 810,
+      "annotated_at": "2026-06-03T16:09:18"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "fakt",
+      "target_word": "facts",
+      "human_is_valid": true,
+      "sample_id": 532,
+      "annotated_at": "2026-06-03T16:09:21"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "nahrungsmittel",
+      "target_word": "food",
+      "human_is_valid": true,
+      "sample_id": 889,
+      "annotated_at": "2026-06-03T16:09:43"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "wendt",
+      "target_word": "casper",
+      "human_is_valid": false,
+      "sample_id": 1862,
+      "annotated_at": "2026-06-03T16:09:50"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "unpassierba",
+      "target_word": "impassable",
+      "human_is_valid": true,
+      "sample_id": 1790,
+      "annotated_at": "2026-06-03T16:09:52"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "cromwell",
+      "target_word": "cromwell",
+      "human_is_valid": true,
+      "sample_id": 163,
+      "annotated_at": "2026-06-03T16:09:57"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "heilig",
+      "target_word": "holy",
+      "human_is_valid": true,
+      "sample_id": 1936,
+      "annotated_at": "2026-06-03T16:09:59"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "schmuckt",
+      "target_word": "ornaient",
+      "human_is_valid": true,
+      "sample_id": 1424,
+      "annotated_at": "2026-06-03T16:10:03"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "autokrati",
+      "target_word": "autocrati",
+      "human_is_valid": true,
+      "sample_id": 661,
+      "annotated_at": "2026-06-03T16:10:11"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "angeloz",
+      "target_word": "angeloz",
+      "human_is_valid": true,
+      "sample_id": 1041,
+      "annotated_at": "2026-06-03T16:10:24"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "meteorologi",
+      "target_word": "meteorologi",
+      "human_is_valid": true,
+      "sample_id": 558,
+      "annotated_at": "2026-06-03T16:10:29"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "putsch",
+      "target_word": "putsch",
+      "human_is_valid": true,
+      "sample_id": 548,
+      "annotated_at": "2026-06-03T16:10:32"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "greifswald",
+      "target_word": "goettingu",
+      "human_is_valid": false,
+      "sample_id": 1189,
+      "annotated_at": "2026-06-03T16:10:36"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "betrugerisch",
+      "target_word": "frauduleus",
+      "human_is_valid": true,
+      "sample_id": 1920,
+      "annotated_at": "2026-06-03T16:10:39"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "sophokl",
+      "target_word": "sophocl",
+      "human_is_valid": true,
+      "sample_id": 1255,
+      "annotated_at": "2026-06-03T16:10:45"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "software",
+      "target_word": "software",
+      "human_is_valid": true,
+      "sample_id": 1116,
+      "annotated_at": "2026-06-03T16:10:46"
+    },
+    {
+      "pair": "de-fr",
+      "source_lang": "de",
+      "target_lang": "fr",
+      "source_word": "stockholm",
+      "target_word": "stockholm",
+      "human_is_valid": true,
+      "sample_id": 1752,
+      "annotated_at": "2026-06-03T16:11:20"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "napoleonisch",
+      "target_word": "napoleonien",
+      "human_is_valid": true,
+      "sample_id": 973,
+      "annotated_at": "2026-06-03T16:11:22"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "meter",
+      "target_word": "metr",
+      "human_is_valid": true,
+      "sample_id": 97,
+      "annotated_at": "2026-06-03T16:11:23"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "musical",
+      "target_word": "musical",
+      "human_is_valid": true,
+      "sample_id": 1486,
+      "annotated_at": "2026-06-03T16:11:25"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "zagreb",
+      "target_word": "zagreb",
+      "human_is_valid": true,
+      "sample_id": 1156,
+      "annotated_at": "2026-06-03T16:11:26"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "schleswig",
+      "target_word": "schleswig",
+      "human_is_valid": true,
+      "sample_id": 1737,
+      "annotated_at": "2026-06-03T16:11:27"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "ambri_piotta",
+      "target_word": "ambri_piotta",
+      "human_is_valid": true,
+      "sample_id": 1115,
+      "annotated_at": "2026-06-03T16:11:31"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "land",
+      "target_word": "land",
+      "human_is_valid": true,
+      "sample_id": 509,
+      "annotated_at": "2026-06-03T16:11:32"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "feierlich",
+      "target_word": "solennel",
+      "human_is_valid": false,
+      "sample_id": 1017,
+      "annotated_at": "2026-06-03T16:11:54"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "kleinbauer",
+      "target_word": "paysan",
+      "human_is_valid": true,
+      "sample_id": 443,
+      "annotated_at": "2026-06-03T16:11:59"
+    },
+    {
+      "pair": "de-lb",
+      "source_lang": "de",
+      "target_lang": "lb",
+      "source_word": "szenisch",
+      "target_word": "sceniqu",
+      "human_is_valid": true,
+      "sample_id": 1413,
+      "annotated_at": "2026-06-03T16:12:01"
+    }
+  ]
+}
