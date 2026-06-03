@@ -31,6 +31,8 @@ python annotate_seed_candidates.py
 
 Please read the instructions printed by the script before starting.
 
+The displayed words are normalized forms, not necessarily original surface forms.
+
 For each language pair, enter how many new examples to annotate. Enter `0` to skip a pair.
 
 During annotation:
@@ -45,12 +47,12 @@ Skipped pairs are not saved as annotations, so the number you enter means the nu
 
 Annotation rules:
 
-- Ignore capitalization.
-- Ignore OCR/spelling errors in either word if the intended word is clear.
-- Ignore singular/plural differences if the meaning is otherwise correct.
-- If a word is in the wrong language, mark it as false.
-- If the source word has several common meanings, mark it as false immediately, even if the shown translation is correct for one of those meanings.
-- If you know both words and the translation is only sort of correct, but not really correct, mark it as false.
+- Focus on the semantics of the two words. If the target word is overall a correct semantic translation of the source word, mark it as true.
+- Ignore capitalization and OCR/spelling errors if the intended word is clear.
+- Ignore inflectional differences if the meaning is otherwise correct: tense, singular/plural, gender, and grammatical case such as nominative, accusative, dative, or genitive.
+- If one word is in the wrong language but the semantic translation is still correct, mark it as true.
+- For words with multiple meanings, judge the most common meaning of each word. Mark true if the common meanings match.
+- Mark false if the match only works through a rare or unusual meaning of one word.
 
 ## After Annotating
 
