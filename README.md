@@ -60,6 +60,8 @@ Push your changes so the next annotator starts from the latest file:
 
 ```bash
 git add annotations/seed_annotations.json
-git commit -m "Add seed annotations"
+git commit -m "Added X new checked pairs - NAME"
 git push
 ```
+
+Replace `X` with the number of new `t`/`f` decisions you added, and replace `NAME` with your name.
