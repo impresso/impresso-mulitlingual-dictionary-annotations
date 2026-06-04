@@ -1,7 +1,7 @@
 {
   "candidate_file": "pivot_seed_candidates_1to1_clustered_500x4.jsonl",
   "created_at": "2026-06-03T16:05:53",
-  "updated_at": "2026-06-03T16:12:01",
+  "updated_at": "2026-06-04T11:45:22",
   "annotations": [
     {
       "pair": "de-en",
@@ -302,6 +302,56 @@
       "human_is_valid": true,
       "sample_id": 1413,
       "annotated_at": "2026-06-03T16:12:01"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "trockenheit",
+      "target_word": "drought",
+      "human_is_valid": true,
+      "sample_id": 1917,
+      "annotated_at": "2026-06-04T11:45:08"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "verschmutzung",
+      "target_word": "pollution",
+      "human_is_valid": true,
+      "sample_id": 533,
+      "annotated_at": "2026-06-04T11:45:11"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "boje",
+      "target_word": "buoy",
+      "human_is_valid": true,
+      "sample_id": 803,
+      "annotated_at": "2026-06-04T11:45:15"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "ersucht",
+      "target_word": "requested",
+      "human_is_valid": true,
+      "sample_id": 1772,
+      "annotated_at": "2026-06-04T11:45:19"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "commerzbank",
+      "target_word": "commerzbank",
+      "human_is_valid": true,
+      "sample_id": 1204,
+      "annotated_at": "2026-06-04T11:45:22"
     }
   ]
 }
