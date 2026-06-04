@@ -50,7 +50,8 @@ Annotation rules:
 - Focus on the semantics of the two words. If the target word is overall a correct semantic translation of the source word, mark it as true.
 - Ignore capitalization and OCR/spelling errors if the intended word is clear.
 - Ignore inflectional differences if the meaning is otherwise correct: tense, singular/plural, gender, and grammatical case such as nominative, accusative, dative, or genitive.
-- If one word is in the wrong language but the semantic translation is still correct, mark it as true.
+- If either word is in the wrong language for its column, mark it as false.
+- If the two words are identical, mark it as false.
 - For words with multiple meanings, judge the most common meaning of each word. Mark true if the common meanings match.
 - Mark false if the match only works through a rare or unusual meaning of one word.
 
