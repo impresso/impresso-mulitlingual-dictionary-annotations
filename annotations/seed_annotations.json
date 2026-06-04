@@ -1,7 +1,7 @@
 {
   "candidate_file": "pivot_seed_candidates_1to1_clustered_500x4.jsonl",
   "created_at": "2026-06-03T16:05:53",
-  "updated_at": "2026-06-04T11:45:22",
+  "updated_at": "2026-06-04T12:03:20",
   "annotations": [
     {
       "pair": "de-en",
@@ -352,6 +352,496 @@
       "human_is_valid": true,
       "sample_id": 1204,
       "annotated_at": "2026-06-04T11:45:22"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "allei",
+      "target_word": "alone",
+      "human_is_valid": true,
+      "sample_id": 112,
+      "annotated_at": "2026-06-04T11:51:22"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "passend",
+      "target_word": "suitab",
+      "human_is_valid": true,
+      "sample_id": 1173,
+      "annotated_at": "2026-06-04T11:52:07"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "abschaff",
+      "target_word": "abolish",
+      "human_is_valid": true,
+      "sample_id": 763,
+      "annotated_at": "2026-06-04T11:52:17"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "ernster",
+      "target_word": "serious",
+      "human_is_valid": false,
+      "sample_id": 1041,
+      "annotated_at": "2026-06-04T11:52:43"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "ratificatio",
+      "target_word": "ratification",
+      "human_is_valid": true,
+      "sample_id": 1909,
+      "annotated_at": "2026-06-04T11:52:56"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "ernen",
+      "target_word": "nominate",
+      "human_is_valid": false,
+      "sample_id": 1189,
+      "annotated_at": "2026-06-04T11:53:25"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "wirksam",
+      "target_word": "effectual",
+      "human_is_valid": true,
+      "sample_id": 1839,
+      "annotated_at": "2026-06-04T11:53:28"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "mythologi",
+      "target_word": "mythology",
+      "human_is_valid": true,
+      "sample_id": 1720,
+      "annotated_at": "2026-06-04T11:53:32"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "treuhandgesellschaft",
+      "target_word": "accountant",
+      "human_is_valid": false,
+      "sample_id": 547,
+      "annotated_at": "2026-06-04T11:53:48"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "reparatu",
+      "target_word": "repair",
+      "human_is_valid": true,
+      "sample_id": 905,
+      "annotated_at": "2026-06-04T11:53:52"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "bombay",
+      "target_word": "bombay",
+      "human_is_valid": true,
+      "sample_id": 1514,
+      "annotated_at": "2026-06-04T11:53:58"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "sardini",
+      "target_word": "sardinia",
+      "human_is_valid": true,
+      "sample_id": 1206,
+      "annotated_at": "2026-06-04T11:54:03"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "illustrier",
+      "target_word": "illustrate",
+      "human_is_valid": true,
+      "sample_id": 124,
+      "annotated_at": "2026-06-04T11:54:06"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "schwankung",
+      "target_word": "fluctuation",
+      "human_is_valid": true,
+      "sample_id": 586,
+      "annotated_at": "2026-06-04T11:54:09"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "wasserfall",
+      "target_word": "waterfall",
+      "human_is_valid": true,
+      "sample_id": 392,
+      "annotated_at": "2026-06-04T11:54:10"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "abordnung",
+      "target_word": "deputation",
+      "human_is_valid": true,
+      "sample_id": 403,
+      "annotated_at": "2026-06-04T11:54:12"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "erreich",
+      "target_word": "reach",
+      "human_is_valid": true,
+      "sample_id": 1071,
+      "annotated_at": "2026-06-04T11:54:14"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "scharmutzel",
+      "target_word": "skirmishe",
+      "human_is_valid": true,
+      "sample_id": 1136,
+      "annotated_at": "2026-06-04T11:54:16"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "unwahrscheinlich",
+      "target_word": "improbable",
+      "human_is_valid": true,
+      "sample_id": 981,
+      "annotated_at": "2026-06-04T11:54:22"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "downing",
+      "target_word": "downingstreet",
+      "human_is_valid": false,
+      "sample_id": 1263,
+      "annotated_at": "2026-06-04T11:54:28"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "assistiert",
+      "target_word": "officiated",
+      "human_is_valid": false,
+      "sample_id": 1384,
+      "annotated_at": "2026-06-04T11:55:37"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "vanderbilt",
+      "target_word": "vanderbilt",
+      "human_is_valid": true,
+      "sample_id": 776,
+      "annotated_at": "2026-06-04T11:55:43"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "schlittschuhlauf",
+      "target_word": "skating",
+      "human_is_valid": true,
+      "sample_id": 1114,
+      "annotated_at": "2026-06-04T11:57:10"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "altar",
+      "target_word": "altar",
+      "human_is_valid": true,
+      "sample_id": 1466,
+      "annotated_at": "2026-06-04T11:59:15"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "auffuhrung",
+      "target_word": "rehearsal",
+      "human_is_valid": true,
+      "sample_id": 1794,
+      "annotated_at": "2026-06-04T11:59:17"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "tone",
+      "target_word": "tone",
+      "human_is_valid": true,
+      "sample_id": 672,
+      "annotated_at": "2026-06-04T11:59:58"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "abhandlung",
+      "target_word": "dissertation",
+      "human_is_valid": false,
+      "sample_id": 1486,
+      "annotated_at": "2026-06-04T12:00:46"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "eingehullt",
+      "target_word": "enveloped",
+      "human_is_valid": true,
+      "sample_id": 1125,
+      "annotated_at": "2026-06-04T12:00:49"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "zuschau",
+      "target_word": "spectator",
+      "human_is_valid": true,
+      "sample_id": 955,
+      "annotated_at": "2026-06-04T12:00:53"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "martiniqu",
+      "target_word": "guadeloupe",
+      "human_is_valid": false,
+      "sample_id": 1261,
+      "annotated_at": "2026-06-04T12:00:58"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "mitglied",
+      "target_word": "member",
+      "human_is_valid": true,
+      "sample_id": 191,
+      "annotated_at": "2026-06-04T12:01:01"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "dardanell",
+      "target_word": "dardanelle",
+      "human_is_valid": true,
+      "sample_id": 122,
+      "annotated_at": "2026-06-04T12:01:04"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "verdachtigung",
+      "target_word": "insinuation",
+      "human_is_valid": true,
+      "sample_id": 1340,
+      "annotated_at": "2026-06-04T12:01:07"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "abruzz",
+      "target_word": "abruzzi",
+      "human_is_valid": false,
+      "sample_id": 940,
+      "annotated_at": "2026-06-04T12:01:21"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "bazain",
+      "target_word": "bazaine",
+      "human_is_valid": false,
+      "sample_id": 1417,
+      "annotated_at": "2026-06-04T12:01:26"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "spezereihandl",
+      "target_word": "grocer",
+      "human_is_valid": true,
+      "sample_id": 42,
+      "annotated_at": "2026-06-04T12:01:50"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "steigung",
+      "target_word": "gradient",
+      "human_is_valid": true,
+      "sample_id": 1163,
+      "annotated_at": "2026-06-04T12:01:53"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "bestraf",
+      "target_word": "punish",
+      "human_is_valid": true,
+      "sample_id": 324,
+      "annotated_at": "2026-06-04T12:01:58"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "trockenperiod",
+      "target_word": "drought",
+      "human_is_valid": true,
+      "sample_id": 293,
+      "annotated_at": "2026-06-04T12:02:03"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "reinheit",
+      "target_word": "purity",
+      "human_is_valid": true,
+      "sample_id": 997,
+      "annotated_at": "2026-06-04T12:02:05"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "steif",
+      "target_word": "limp",
+      "human_is_valid": false,
+      "sample_id": 1643,
+      "annotated_at": "2026-06-04T12:02:39"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "gegenseitig",
+      "target_word": "mutually",
+      "human_is_valid": true,
+      "sample_id": 1090,
+      "annotated_at": "2026-06-04T12:03:02"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "schlachtfelder",
+      "target_word": "battlefield",
+      "human_is_valid": true,
+      "sample_id": 1462,
+      "annotated_at": "2026-06-04T12:03:04"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "persisch_golf",
+      "target_word": "persian_gulf",
+      "human_is_valid": true,
+      "sample_id": 16,
+      "annotated_at": "2026-06-04T12:03:07"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "mosche",
+      "target_word": "mosque",
+      "human_is_valid": true,
+      "sample_id": 1049,
+      "annotated_at": "2026-06-04T12:03:10"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "kurzerhand",
+      "target_word": "unceremoniously",
+      "human_is_valid": true,
+      "sample_id": 72,
+      "annotated_at": "2026-06-04T12:03:12"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "erwarmt",
+      "target_word": "warmed",
+      "human_is_valid": true,
+      "sample_id": 1408,
+      "annotated_at": "2026-06-04T12:03:14"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "fisch",
+      "target_word": "fish",
+      "human_is_valid": true,
+      "sample_id": 238,
+      "annotated_at": "2026-06-04T12:03:17"
+    },
+    {
+      "pair": "de-en",
+      "source_lang": "de",
+      "target_lang": "en",
+      "source_word": "hebraisch",
+      "target_word": "hebrew",
+      "human_is_valid": true,
+      "sample_id": 822,
+      "annotated_at": "2026-06-04T12:03:20"
     }
   ]
 }
