@@ -1,7 +1,7 @@
 {
   "candidate_file": "pivot_seed_candidates_1to1_clustered_500x4.jsonl",
   "created_at": "2026-06-03T16:05:53",
-  "updated_at": "2026-06-04T14:14:07",
+  "updated_at": "2026-06-10T11:36:00",
   "annotations": [
     {
       "pair": "de-en",
@@ -89,7 +89,7 @@
       "target_lang": "en",
       "source_word": "cromwell",
       "target_word": "cromwell",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 163,
       "annotated_at": "2026-06-03T16:09:57"
     },
@@ -129,7 +129,7 @@
       "target_lang": "fr",
       "source_word": "angeloz",
       "target_word": "angeloz",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1041,
       "annotated_at": "2026-06-03T16:10:24"
     },
@@ -139,7 +139,7 @@
       "target_lang": "fr",
       "source_word": "meteorologi",
       "target_word": "meteorologi",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 558,
       "annotated_at": "2026-06-03T16:10:29"
     },
@@ -149,7 +149,7 @@
       "target_lang": "fr",
       "source_word": "putsch",
       "target_word": "putsch",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 548,
       "annotated_at": "2026-06-03T16:10:32"
     },
@@ -189,7 +189,7 @@
       "target_lang": "fr",
       "source_word": "software",
       "target_word": "software",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1116,
       "annotated_at": "2026-06-03T16:10:46"
     },
@@ -199,7 +199,7 @@
       "target_lang": "fr",
       "source_word": "stockholm",
       "target_word": "stockholm",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1752,
       "annotated_at": "2026-06-03T16:11:20"
     },
@@ -229,7 +229,7 @@
       "target_lang": "lb",
       "source_word": "musical",
       "target_word": "musical",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1486,
       "annotated_at": "2026-06-03T16:11:25"
     },
@@ -239,7 +239,7 @@
       "target_lang": "lb",
       "source_word": "zagreb",
       "target_word": "zagreb",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1156,
       "annotated_at": "2026-06-03T16:11:26"
     },
@@ -249,7 +249,7 @@
       "target_lang": "lb",
       "source_word": "schleswig",
       "target_word": "schleswig",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1737,
       "annotated_at": "2026-06-03T16:11:27"
     },
@@ -259,7 +259,7 @@
       "target_lang": "lb",
       "source_word": "ambri_piotta",
       "target_word": "ambri_piotta",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1115,
       "annotated_at": "2026-06-03T16:11:31"
     },
@@ -269,7 +269,7 @@
       "target_lang": "lb",
       "source_word": "land",
       "target_word": "land",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 509,
       "annotated_at": "2026-06-03T16:11:32"
     },
@@ -349,7 +349,7 @@
       "target_lang": "en",
       "source_word": "commerzbank",
       "target_word": "commerzbank",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1204,
       "annotated_at": "2026-06-04T11:45:22"
     },
@@ -459,7 +459,7 @@
       "target_lang": "en",
       "source_word": "bombay",
       "target_word": "bombay",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1514,
       "annotated_at": "2026-06-04T11:53:58"
     },
@@ -569,7 +569,7 @@
       "target_lang": "en",
       "source_word": "vanderbilt",
       "target_word": "vanderbilt",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 776,
       "annotated_at": "2026-06-04T11:55:43"
     },
@@ -589,7 +589,7 @@
       "target_lang": "en",
       "source_word": "altar",
       "target_word": "altar",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 1466,
       "annotated_at": "2026-06-04T11:59:15"
     },
@@ -609,7 +609,7 @@
       "target_lang": "en",
       "source_word": "tone",
       "target_word": "tone",
-      "human_is_valid": true,
+      "human_is_valid": false,
       "sample_id": 672,
       "annotated_at": "2026-06-04T11:59:58"
     },
