@@ -279,8 +279,8 @@ def print_table(
     pair = str(row["pair"])
     left_label = f"{row['source_lang']} word"
     right_label = f"{row['target_lang']} word"
-    left = str(row["source_word"])
-    right = str(row["target_word"])
+    left = str(row.get("source_surface") or row["source_word"])
+    right = str(row.get("target_surface") or row["target_word"])
 
     width_left = max(len(left_label), len(left), 12)
     width_right = max(len(right_label), len(right), 12)
@@ -307,7 +307,7 @@ def print_instructions() -> None:
     print("Seed Pair Annotation")
     print()
     print("Judge whether the target word is a valid translation of the source word.")
-    print("All shown words are normalized forms, not necessarily original surface forms.")
+    print("Surface forms are shown when available; saved annotations keep normalized words.")
     print()
     print("Keys:")
     print("  t  mark as true/correct")

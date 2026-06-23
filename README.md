@@ -2,7 +2,10 @@
 
 Small terminal tool for validating German-to-target word pairs.
 
-Purpose: create better seed word pairs for aligning monolingual static word embeddings, improving the final multilingual embedding space and dictionary.
+Purpose: create better seed word pairs for
+[`impresso/impresso-static-word-embeddings`](https://github.com/impresso/impresso-static-word-embeddings).
+The resulting `seed_annotations.json` can be placed in that repository so stage
+6 uses the human-approved normalized pairs as stronger initial alignment seeds.
 
 ## Files
 
@@ -31,7 +34,8 @@ python annotate_seed_candidates.py
 
 Please read the instructions printed by the script before starting.
 
-The displayed words are normalized forms, not necessarily original surface forms.
+The script shows surface forms when they are available, but the saved annotation
+rows keep normalized `source_word` and `target_word` values for stage 6.
 
 For each language pair, enter how many new examples to annotate. Enter `0` to skip a pair.
 
@@ -66,3 +70,9 @@ git push
 ```
 
 Replace `X` with the number of new `t`/`f` decisions you added, and replace `NAME` with your name.
+
+To use the latest annotations in the static embeddings pipeline, replace
+`seed_annotations.json` in
+[`impresso/impresso-static-word-embeddings`](https://github.com/impresso/impresso-static-word-embeddings)
+with the latest `annotations/seed_annotations.json` from this repository before
+rerunning stage 6.
